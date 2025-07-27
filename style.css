@@ -13,6 +13,25 @@ body {
     line-height: 1.2 ;
 }
 
+/* 标题样式 */
+h1 {
+    font-size: 2.5rem;
+    color: #4A90E2;
+}
+
+/* 底部样式 */
+footer {
+    background-color: #AEBFECFF;
+    padding: 40px;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
 /* 中心对齐的公共样式 */
 .center {
     text-align: center;
@@ -31,11 +50,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 标题样式 */
-h1 {
-    font-size: 2.5rem;
-    color: #4A90E2;
-}
+
 /*头部联系方式*/
 .head_text {
     font-size: 0.8rem;
@@ -50,17 +65,11 @@ h1 {
     color: #555;
 }
 
-/* 底部样式 */
-footer {
-    background-color: #AEBFECFF;
-    padding: 40px;
-    font-size: 14px;
-    color: #fff;
-    margin-top: 40px;
-}
-
-footer p {
-    margin: 0;
+/*按钮样式*/
+.btn {
+    color: #9cebee;
+    background-color: #4A90E2;
+    border-color: #4A90E2;
 }
 
 /* 响应式设计 */
