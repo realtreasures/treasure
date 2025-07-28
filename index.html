@@ -9,29 +9,51 @@
 </head>
 
 <body>
+<!--粒子特效-->
+<canvas id="particlesCanvas"></canvas>
+<script src="js/particles.js"></script>
 
 <header style="text-align: center;">
-    <img src="wxhead.jpg" class="head_pic" alt="微信头像" >
+    <a href="#" id="viewImage">
+        <img src="wxhead.jpg" class="head_pic" alt="微信头像" >
+    </a>
     <p class="head_text">QQ:2373375430</p>
     <p class="head_text">微信号:g5357929</p>
     <p class="head_text">电子邮箱:15028911962@163.com</p>
 </header>
 
+<div id="modal" class="modal">
+    <span class="close" id="closeModal">&times;</span>
+    <img src="wxhead.jpg" class="modal-content" id="modalImage">
+</div>
+<script src="js/modal.js"></script>
 </body>
 
 <body>
+
 <section class="center">
     <p class="context">大家好，我是treasure，欢迎来到我的个人网站</p>
     <button class="btn" onclick="location.href='ai.html';">
         点击这里
-</button>
+    </button>
     <p class="context">2</p>
     <p class="context">3</p>
     <p class="context">5</p>
 </section>
 
+
+<div class="scroll-container">
+    <div class="scroll-content">
+        <img src="images/image1.jpeg" alt="Image 1">
+        <img src="images/image2.jpeg" alt="Image 2">
+        <img src="images/image3.jpeg" alt="Image 3">
+        <img src="images/image4.jpeg" alt="Image 4">
+        <img src="images/image5.jpeg" alt="Image 5">
+    </div>
+</div>
 <footer class="center">
     <p>欢迎大家访问我的网站</p>
 </footer>
+<script src="js/scrollpic.js"></script>
 </body>
 </html>
